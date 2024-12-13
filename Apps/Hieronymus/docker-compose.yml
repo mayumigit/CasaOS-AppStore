@@ -57,8 +57,6 @@ services:
     restart: always
     working_dir: /app/hieronymus
     volumes: []
-    devices: []
-    cap_add: []
     networks:
       - hieronymus
     privileged: false
