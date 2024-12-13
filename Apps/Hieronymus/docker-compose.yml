@@ -29,7 +29,6 @@ services:
       - type: bind
         source: /DATA/AppData/$AppID/data
         target: /var/lib/postgresql/data
-    cap_add: []
     networks:
       - hieronymus
     privileged: false
