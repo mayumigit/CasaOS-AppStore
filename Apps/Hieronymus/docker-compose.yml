@@ -68,22 +68,25 @@ networks:
   hieronymus:
     name: hieronymus
 x-casaos:
-  author: BeesNestLLC
-  category: self
-  icon: ""
-  index: /
+  architectures:
+    - amd64
+    - arm64
   main: web
+  author: BeesNestLLC
+  category: 会計
+  description:
+    ja_jp: |
+      Hieronymusは零細企業用のオープンソースERPシステムです。
+    en_us: |
+      Hieronymus is an open source ERP system for small businesses.
+  developer: BeesNestLLC
+  icon: "https://cdn.jsdelivr.net/gh/mayumigit/hieronymus@setup_casaos_appstore/public/icon-192x192.png"
+  index: /
+  tagline:
+    ja_jp: Hieronymusは零細企業用のオープンソースERPシステムです。
+    en_us: Hieronymus is an open source ERP system for small businesses.
   port_map: "3010"
   scheme: http
   title:
     en_us: Hieronymus
     ja_jp: Hieronymus
-  description:
-    ja_jp: |
-      Hieronymusは零細企業用のオープンソースERPシステムです。
-
-      現在のところ
-      * 基本的な会計機能（財務会計）
-      * 取引先の基本的な管理機能
-      * 新電帳法対応の証票管理機能
-      が実装されています。

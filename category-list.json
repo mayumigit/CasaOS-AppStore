@@ -133,5 +133,10 @@
     "name": "Database",
     "font": "database-the-application",
     "description": "Database Apps"
+  },
+  {
+    "name": "会計",
+    "font": "database-the-application",
+    "description": "会計アプリケーション"
   }
 ]
