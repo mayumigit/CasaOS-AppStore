@@ -56,7 +56,6 @@ services:
         protocol: tcp
     restart: always
     working_dir: /app/hieronymus
-    volumes: []
     networks:
       - hieronymus
     privileged: false
