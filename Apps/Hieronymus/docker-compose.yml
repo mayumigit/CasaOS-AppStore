@@ -32,6 +32,16 @@ services:
     networks:
       - hieronymus
     privileged: false
+    x-casaos:
+      ports:
+        - container: "5432"
+          description:
+            en_us: ""
+
+      volumes:
+        - container: /var/lib/postgresql/data
+          description:
+            en_us: ""
   web:
     cpu_shares: 90
     command: []
@@ -59,6 +69,11 @@ services:
     networks:
       - hieronymus
     privileged: false
+    x-casaos:
+      ports:
+        - container: "3010"
+          description:
+            en_us: ""
 networks:
   hieronymus:
     name: hieronymus
