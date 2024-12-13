@@ -3,30 +3,9 @@
     "appid": "nextcloud"
   },
   {
-    "appid": "adguard-home"
-  },
-  {
-    "appid": "open-webui-ollama"
-  },
-  {
-    "appid": "jellyfin"
-  },
-  {
-    "appid": "photoprism"
-  },
-  {
-    "appid": "plex"
+    "appid": "hieronymus"
   },
   {
     "appid": "syncthing"
-  },
-  {
-    "appid": "qbittorrent"
-  },
-  {
-    "appid": "siyuan-note"
-  },
-  {
-    "appid": "gitea"
   }
 ]
